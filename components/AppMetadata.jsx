@@ -1,22 +1,20 @@
-const author = "Vasile Novatchii";
-const description =
-	"Software developer from Moldova, Republic of, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
-const url = "https://vasile-novatchii.netlify.app";
+const author = "Dwi Abdul kholiq";
+const description = "convert YOUR digital vision into reality";
+const url = "https://dialkq.com";
 export const AppMetadata = {
-	metadataBase: new URL("https://vasile-novatchii.netlify.app/"),
+	metadataBase: new URL("https://dialkq.com"),
 	title: {
 		default: `Portfolio | ${author}`,
-		template: `%s | ${author}`
+		template: `${author}`
 	},
 	description: description,
 	icons: {
 		icon: "/favicon.png"
 	},
 	keywords: [
-		"Vasile Novatchii",
-		"Vasile Novatchii - software developer",
+		"Dwi Abdul kholiq",
+		"Dwi Abdul kholiq - software developer",
 		"Frontend developer",
-		"Flutter developer",
 		"Portfolio website",
 		"Frontend Developer Portfolio"
 	],
@@ -42,7 +40,6 @@ export const AppMetadata = {
 				alt: "My personal portfolio website"
 			}
 		],
-		locale: "en-US",
 		type: "website"
 	}
 };
