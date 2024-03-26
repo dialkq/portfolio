@@ -9,7 +9,7 @@ export const AppMetadata = {
 	},
 	description: description,
 	icons: {
-		icon: "/photo_dwi.png"
+		icon: "/favicon.png"
 	},
 	keywords: [
 		"Dwi Abdul kholiq",
