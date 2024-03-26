@@ -3,7 +3,7 @@ import { HeadingDivider } from "components";
 
 export function ProjectsSection() {
 	return (
-		<LazyMotion features={domAnimation}>
+		<LazyMotion features={domAnimation} className="">
 			<section id="projects" className="section">
 				<HeadingDivider title="Latest projects" />
 				<div className="h-10 md:h-14" />
