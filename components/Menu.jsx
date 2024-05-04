@@ -14,7 +14,6 @@ export function Menu({ onClick = () => {} }) {
 	const { scrollToEl } = useScrollTo();
 
 	const sortAscending = (a, b) => a.id - b.id;
-
 	const handleOnClick = (e) => {
 		scrollToEl(e);
 		window.setTimeout(() => onClick(), 350);

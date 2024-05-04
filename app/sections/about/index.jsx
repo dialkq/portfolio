@@ -27,11 +27,11 @@ export function AboutSection() {
 						}}
 					>
 						<Image
-							className="block md:order-1"
+							className="block md:order-1 mx-auto md:mx-0"
 							src={profilePic}
 							alt="Profile picture"
-							width={200}
-							height={200}
+							width={250}
+							height={250}
 						/>
 						<p className="mb-10 md:order-2">
 							Hello, my name is <span className="font-bold">Dwi Abdul Kholiq</span> , a passionate
