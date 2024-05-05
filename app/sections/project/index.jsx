@@ -47,7 +47,7 @@ export function ProjectsSection() {
 									className="font-mono bg-emerald-400 hover:bg-emerald-500 py-2 px-3 md:px-4
 							text-white font-bold rounded-md cursor-pointer"
 								>
-									Demo
+									Visit
 								</div>
 							</Link>
 						</div>
